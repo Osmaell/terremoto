@@ -25,24 +25,12 @@ public class Terremoto {
         return magnitude;
     }
 
-    public void setMagnitude(double magnitude) {
-        this.magnitude = magnitude;
-    }
-
     public String getLocalizacao() {
         return localizacao;
     }
 
-    public void setLocalizacao(String localizacao) {
-        this.localizacao = localizacao;
-    }
-
     public long getTempoEmMilisegundos() {
         return tempoEmMilisegundos;
-    }
-
-    public void setTempoEmMilisegundos(long tempoEmMilisegundos) {
-        this.tempoEmMilisegundos = tempoEmMilisegundos;
     }
 
     @Override

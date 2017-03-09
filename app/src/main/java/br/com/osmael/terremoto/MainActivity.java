@@ -1,11 +1,9 @@
 package br.com.osmael.terremoto;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.ArrayAdapter;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import br.com.osmael.terremoto.adapters.TerremotoAdapter;
