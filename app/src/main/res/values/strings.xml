@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Terremoto</string>
+    <string name="sem_dados">Nenhum terremoto encontrado.</string>
+    <string name="sem_conexao">Não há conexão com a internet.</string>
 </resources>
