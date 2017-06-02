@@ -20,7 +20,7 @@ public class TerremotoLoader extends AsyncTaskLoader<List<Terremoto>>{
         super(context);
         this.mUrl = url;
     }
-    
+
     /**
      * Retorna uma lista de terremotos que
      * é obtida do método estático obterTerremotos

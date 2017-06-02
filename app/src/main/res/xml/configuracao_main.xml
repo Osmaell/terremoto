@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/titulo_configuracao" >
+
+    <EditTextPreference
+        android:defaultValue="@string/configuracao_min_magnitude_padrao"
+        android:inputType="numberDecimal"
+        android:key="@string/configuracao_min_chave_magnitude"
+        android:selectAllOnFocus="true"
+        android:title="@string/configuracao_min_magnitude_titulo" />
+
+    <ListPreference
+        android:defaultValue="@string/configuracao_order_by_padrao"
+        android:entries="@array/configuracao_order_by_titulos"
+        android:entryValues="@array/configuracao_order_by_valores"
+        android:title="@string/configuracao_order_by_titulo"
+        android:key="@string/configuracao_order_by_chave" />
+
+</PreferenceScreen>

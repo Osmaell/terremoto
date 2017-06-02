@@ -22,10 +22,7 @@ import br.com.osmael.terremoto.entity.Terremoto;
 /**
  * Created by root on 08/03/17.
  */
-
 public class TerremotoAdapter extends ArrayAdapter<Terremoto> {
-
-    private Context context;
 
     public TerremotoAdapter(Context context, List<Terremoto> terremotos) {
         super(context, 0, terremotos);
@@ -33,7 +30,7 @@ public class TerremotoAdapter extends ArrayAdapter<Terremoto> {
 
     @NonNull
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(int position, View convertView, @NonNull ViewGroup parent) {
 
         // Checa se há um item view de lista existente (chamado convertView) que podemos re-usar,
         // ao contrário, se convertView for null, inflaremos uma novo item layout de lista.

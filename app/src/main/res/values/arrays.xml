@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="configuracao_order_by_titulos" >
+        <item>@string/configuracao_order_by_magnitude_titulo</item>
+        <item>@string/configuracao_order_by_mais_recente_titulo</item>
+    </string-array>
+
+    <string-array name="configuracao_order_by_valores" >
+        <item>@string/configuracao_order_by_magnitude_valor</item>
+        <item>@string/configuracao_order_by_mais_recente_valor</item>
+    </string-array>
+
+</resources>

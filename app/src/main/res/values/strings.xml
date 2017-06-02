@@ -2,4 +2,29 @@
     <string name="app_name">Terremoto</string>
     <string name="sem_dados">Nenhum terremoto encontrado.</string>
     <string name="sem_conexao">Não há conexão com a internet.</string>
+
+    <!-- Item de Menu de Configuração [CHAR LIMIT=NONE] -->
+    <string name="configuracao_item_menu" >Configuração</string>
+
+    <!-- Título da ConfiguracaoActivity [CHAR LIMIT=NONE] -->
+    <string name="titulo_configuracao">Configuração</string>
+
+    <!-- Strings para Preferência de Magnitude Mínima [CHAR LIMIT=30] -->
+    <string name="configuracao_min_magnitude_titulo" >Magnitude Mínima</string>
+    <string name="configuracao_min_chave_magnitude" translatable="false" >magnitude_min</string>
+    <string name="configuracao_min_magnitude_padrao" translatable="false" >6</string>
+
+    <!-- Strings Para Preferência de Order-By [CHAR LIMIT=30] -->
+    <string name="configuracao_order_by_titulo" >Ordernar por</string>
+    <string name="configuracao_order_by_chave" translatable="false" >order_by</string>
+    <string name="configuracao_order_by_padrao" translatable="false" >@string/configuracao_order_by_magnitude_valor</string>
+
+    <!-- Label para opção de order-by magnitude [CHAR LIMIT=20] -->
+    <string name="configuracao_order_by_magnitude_titulo" >Magnitude</string>
+    <string name="configuracao_order_by_magnitude_valor" translatable="false">magnitude</string>
+
+    <!-- Label para order-by a opção mais recente [CHAR LIMIT=20] -->
+    <string name="configuracao_order_by_mais_recente_titulo" >Mais recente</string>
+    <string name="configuracao_order_by_mais_recente_valor" translatable="false">time</string>
+
 </resources>
